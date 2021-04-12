@@ -1,0 +1,45 @@
+.dataTables_filter {
+   float: right; !important;
+   margin-top: -3.5%;
+   margin-bottom: 3.5%;
+}
+
+#DataTables_Table_0_paginate {
+   float: right; !important;
+   margin-top: 0%;
+   position: relative;
+   left: -10%;
+
+} 
+
+#DataTables_Table_0_previous{
+	padding-right: 10%;	
+}
+
+#DataTables_Table_0_next{
+	padding-left: 10%;	
+}
+
+.paginate_button{
+	padding-left: 10%;	
+	padding-right:  10%;	
+}
+
+
+
+#DataTables_Table_1_paginate {
+   float: right; !important;
+   margin-top: 0%;
+   position: relative;
+   left: -10%;
+
+} 
+
+#DataTables_Table_1_previous{
+   padding-right: 10%;  
+}
+
+#DataTables_Table_1_next{
+   padding-left: 10%;   
+}
+

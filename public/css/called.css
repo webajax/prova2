@@ -1,0 +1,237 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #f2f2f2;
+	overflow-y: auto;
+}
+.brand-link {
+	border-bottom: none !important;
+	padding: .8125rem .0rem .8125rem .5rem !important;
+}
+.btnCloseMenu {
+	z-index: 1140;
+	position: relative;
+	top: -10px;
+	left: 10px;
+	color: #f2f2f2;
+	font-size: 15px;
+	line-height: 25px;
+	display: block;
+}
+.btnCloseMenu .fas {
+	color: black;
+}
+.sidebar {
+	float: left !important;
+}
+.navbar {
+	background-color: #343a40 !important;
+}
+ul.navbar-nav.ml-auto{
+	margin-right: 0px;
+}
+ul.navbar-nav.ml-auto>li.nav-item>a.nav-link.dropdown-toggle {
+	color: #f2f2f2;
+}
+.dropdown-menu {
+	margin-right: -20px;
+}
+.navbar-nav>.user-menu>.dropdown-menu {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	padding: 0;
+	width: 280px;
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header {
+	height: 100px;
+	padding: 10px;
+	text-align: left;
+	background-color: #343a40;
+	color: #f2f2f2;
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-footer .fas {
+	color: ##6c757d;
+}
+.userMenuCollapse {
+	margin-right: 0px;
+	transition: .43s;
+}
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: #343a40;
+	z-index: 1039;
+}
+.bottom {
+	padding: 5px;
+	font-size: 0.9375rem;
+	background: #343a40;
+}
+
+.bottom span {
+	color: #f2f2f2;
+}
+
+.bottom a {
+	color: #f12020;
+	text-decoration: none;
+}
+
+.bottom a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+	footer {
+		position: fixed;
+		bottom: 0px;
+	}
+}
+/* @media (min-width: 993px) {
+	#btnHamburger {
+		display: none;
+	}
+}
+@media (max-width: 992px) {
+	#btnHamburger {
+		display: block;
+	}
+} */
+@media (min-width: 993px) {
+	.userMenuCollapse {
+		margin-right: 0px;
+		transition: .42s;
+	}
+	#btnHamburger {
+		display: none;
+	}
+}
+@media (max-width: 992px) {
+	.userMenuCollapse {
+		margin-right: 0px;
+		transition: .41s;
+	}
+	#btnHamburger {
+		display: block;
+	}
+}
+
+/* content pages: commom css */
+.main-sidebar {
+	position: fixed !important;
+}
+.form-inline {
+	display: block;
+}
+.dataTables_filter {
+position: relative;
+}
+.dataTables_length {
+position: relative;
+}
+.select2-selection__rendered {
+line-height: 16px !important;
+}
+.content-wrapper {
+	background-color: #f2f2f2 !important;
+	min-height: 736px !important;
+}
+.content-header {
+	position: relative;
+	top: 10px;
+	padding: .5rem;
+}
+.content-wrapper>.content-header>.container-fluid>.row {
+	height: 20px;
+	width: 100%;
+	margin-top: 40px;
+}
+.content-wrapper>.card {
+	margin-top: 20px;
+}
+.header {
+	padding: 0px;
+	width: 100vw;
+	height: 40px;
+	margin: 38px 0px -8px -8px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	box-shadow: 1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+.bc-left {
+	margin-left: 15px;
+	margin-right: -15px;
+}
+.bc-center {
+	text-align: center;
+	list-style-position: inside;
+	display: inline-flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.bc-right {
+	margin-right: 15px;
+	margin-left: -15px;
+}
+.content-wrapper>.content {
+	padding: 0rem .5rem 1.25rem .5rem;
+}
+.content {
+	min-height: calc(100vh - 130px) !important;
+}
+.card-body {
+	min-height: calc(100vh - 240px) !important;
+	padding: 1rem 1rem .25rem 1rem;
+}
+.div-list {
+	position: relative;
+	overflow-y: auto;
+	height: 100%;
+}
+.alert-primary {
+	color: #004085;
+	background-color: #cce5ff;
+	border-color: #b8daff;
+}
+.alert-secondary {
+	color: #383d41;
+	background-color: #e2e3e5;
+	border-color: #d6d8db;
+}
+.alert-success {
+	color: #155724;
+	background-color: #d4edda;
+	border-color: #c3e6cb;
+}
+.alert-danger {
+	color: #721c24;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+}
+.alert-warning {
+	color: #856404;
+	background-color: #fff3cd;
+	border-color: #ffeeba;
+}
+.alert-info {
+	color: #0c5460;
+	background-color: #d1ecf1;
+	border-color: #bee5eb;
+}
+.alert-light {
+	color: #818182;
+	background-color: #fafafa;
+	border-color: #fdfdfe;
+}
+.alert-dark {
+	color: #1b1e21;
+	background-color: #d6d8d9;
+	border-color: #c6c8ca;
+}
+.nav-tabs .nav-item a.nav-link.active {
+	background-color: #f12020;
+	color: #f2f2f2;
+}
